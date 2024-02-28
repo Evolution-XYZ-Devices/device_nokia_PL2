@@ -1,0 +1,16 @@
+[
+  {
+    "repository": "vendor_nokia_PL2",
+    "target_path": "vendor/nokia/PL2"
+  },
+  {
+    "repository": "kernel_nokia_PL2",
+    "target_path": "kernel/nokia/PL2"
+  },
+  {
+    "repository": "akshatleo9456/vendor_nokia_Camera",
+    "target_path": "vendor/nokia/Camera",
+    "branch": "thirteen",
+    "remote": "gitlab"
+  }
+]
