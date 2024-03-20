@@ -19,9 +19,6 @@ DEVICE_PATH := device/nokia/PL2
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nokia/PL2/PL2-vendor.mk)
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
